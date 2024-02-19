@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax';
 
 const CategoryBanner = ({heading, subHeading, image}) => {
     return (
-        <div className='max-w-6xl mx-auto'>
+        <div className=''>
             <Parallax
                 blur={{ min: -15, max: 15 }}
                 bgImage={image}

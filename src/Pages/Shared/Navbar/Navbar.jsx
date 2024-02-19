@@ -4,10 +4,11 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const navItem = <>
         <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/ourMenu">OUR MENU</NavLink></li>
     </>
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar fixed z-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
